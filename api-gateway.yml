@@ -18,7 +18,7 @@ authserver:
 zuul:
   routes:
     core-location: /api/user/**
-    employee-service: /api/task/**
+    core-employee: /api/task/**
     web-portal: /*
     user:
       path: /api/loggedinuser/**
