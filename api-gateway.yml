@@ -19,6 +19,7 @@ zuul:
   routes:
     core-location: /api/user/**
     core-employee: /api/task/**
+    core-user: /api/users/**
     web-portal: /*
     user:
       path: /api/loggedinuser/**
