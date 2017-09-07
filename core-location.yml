@@ -30,12 +30,7 @@ spring:
       password: ""
       database: bridle
       port: 27017
-  
-  jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
-    show-sql: false
-    hibernate:
-      ddl-auto: update
+ 
 
 ---
 # user-webservice instance when used on Docker
