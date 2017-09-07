@@ -22,7 +22,7 @@ spring:
       preferTokenInfo: false 
       
       
-   spring:
+  
   data:
     mongodb:
       host: mongodb://localhost:27017
