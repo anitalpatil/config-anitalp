@@ -23,11 +23,13 @@ spring:
       
       
   
-  datasource:
-    url: jdbc:mongo://localhost/bridle
-    username: ""
-    password: ""
-    driver-class: mongodb.jdbc.MongoDrive
+ data:
+    mongodb:
+      host: mongodb://localhost:27017
+      username: ""
+      password: ""
+      database: bridle
+      port: 27017
     
     jpa:
     database-platform: org.hibernate.dialect.MongoDBDialect
